@@ -10,8 +10,8 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Soufiane Nassiri',
+  subtitle: 'Full Stack Developer',
   cta: '',
 };
 
@@ -29,7 +29,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: ' First Project',
     info: '',
     info2: '',
     url: '',
@@ -38,7 +38,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: 'Second project',
     info: '',
     info2: '',
     url: '',
@@ -47,7 +47,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: 'Third Project',
     info: '',
     info2: '',
     url: '',
@@ -68,22 +68,32 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/NcrNassiri',
     },
     {
       id: nanoid(),
       name: 'codepen',
-      url: '',
+      url: 'https://codepen.io/Soufiane009',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/soufiane-nassiri-100010171/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/ncrsoso',
+    },
+    {
+      id: nanoid(),
+      name: 'facebook',
+      url: 'https://www.facebook.com/SOF.NCR/',
+    },
+    {
+      id: nanoid(),
+      name: 'instagram',
+      url: 'https://www.instagram.com/soufiane.nasiri/?hl=en',
     },
   ],
 };
